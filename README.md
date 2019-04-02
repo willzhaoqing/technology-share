@@ -106,7 +106,7 @@ directory structure is as follows:
 组件抽离：components上升到plugins，即可；都是局部代码，泄密性很小
 交付阶段：build好的版本可通过nginx路由配置，如果源代码，一起build也可以；两种都能很好的融入现有的项目结构  
 
-I think maybe we can use mode 3, in addition to the master, everyone should manage their own modules. And it can keep it secret.  
+I think maybe we can use mode 3, in addition to the master, everyone should manage their own modules. And it can keep secret.  
 + Requirements phase:   
 independent team, independent requirements, non-interference.  
 + Development process:   
