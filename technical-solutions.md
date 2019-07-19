@@ -52,4 +52,4 @@ C. 直接开始新版，完成一部分替换一部分
 ### 理想架构
 各个spa首先获取Token，再根据Token获取ACL(Access Control List)，每个项目，例如（account的用户权限，功能列表，操作的信息最好是sessionstorage或临时获取）
 
-![alt](./static/tellus-app.png)
+![alt](./tellus-app.png)
