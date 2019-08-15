@@ -32,6 +32,7 @@ API版本
 返回数据（message，body）  
 + recurrent:  
 如何重现该问题。
+步骤说明  
 + result:  
 你希望得到什么结果/帮助。
 
