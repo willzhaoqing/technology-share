@@ -16,6 +16,25 @@
 
 5. 完成开发，提交PR： from ‘paul-platform’ to ‘platform’ ，或 ‘paul-HLA to ‘master’ 方便admin成员进行CodeReview
 
+## 沟通规则
+
++ feature:   
+功能
++ issue description:   
+任务说明
++ links:   
+jira或slack 链接
++ problem:  
+在什么环境/情况下遇到了什么问题。  
+API版本  
+后台地址  
+请求头、请求体  
+返回数据（message，body）  
++ recurrent:  
+如何重现该问题。
++ result:  
+你希望得到什么结果/帮助。
+
 ## PR规则
 提交PR时，需要写清本次开发的内容  
 ```
