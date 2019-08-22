@@ -12,7 +12,8 @@
 2. remote添加
 首先确认自己的远端仓库地址，git remote -v 
 ![alt](./static/4.jpg)
-添加自己的似有库地址, git remote add my git@gitlab.lvyuetravel.com:camel/hybrid_app.git
+添加自己的库地址  
+`git remote add my git@domain:naming/respo.git`
 ![alt](./static/5.jpg)
 可以看到本地记录的远程仓库地址有两个，库my和库origin
 3. 设定upstream
