@@ -11,7 +11,7 @@ https://api.dev.tellusapp.com/api/v1/messages/media/?channel_id=6887595223204610
 都是做什么的？跟IOS有什么区别
 
 2. 流程说明
-> 基本没有，赵雨就说换个皮肤。
+> 基本没有，后续和未来目标是什么。
 
 3. 功能
 + 卡片
