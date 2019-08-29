@@ -195,8 +195,27 @@ background-color:#E5E5E5;*/
         <div class="righter">container</div>
     </div>
 </body>
-<script></script>
 <script>
+    //替换掉所有的 html标签，得到Html标签中的内容
+    var s="<P><FONT face=宋体 color=#000000> <img src='https.png' />   北京中航宇飞科技有限公司是一家致力于为中国国防工业服务的高新企业。<BR> <BR>    事业一部 主要以连接器、常异型热缩套管和电缆组件的外协加工为主。凭借泰兴这个得天独厚的连接器生产基地的优势，公司生产圆形J599、J598、XC、Y2、Y3、Y4、Y11X、Y17、Y50、YX、BNC、SMA等二十几个系列2800多个规格型号以及矩形J、D、PCB板接系列300多个规格型号。";
+    
+    var dd=s.replace(/<\/?.+?>/g,"");
+    var dds=dd.replace(/ /g,"");//dds为得到后的内容
+    
+const validateArticleRead = val => {
+	var words = val.replace(/<\/?.+?>/g,"").split(' '),
+	regexp = /\w*/,
+	wordsArr = words.map(function (item) {
+			return item.match(regexp)[0]
+	});
+	if (wordsArr.length > 0) {
+		let len = Math.ceil(wordsArr.length/500);
+		return len + " min read";
+	} else {
+		return "0 min read";
+	}
+	return false;
+};console.log(validateArticleRead(dds));
     var arr = ['1', 2, 3, 4, 'dd', 4, 5, 6, 6, 'dd', 7, 8, 1, 0]
     // 数组下标
     function fn00(a) {
