@@ -4,14 +4,10 @@
 1. website -- bootstrap 为主
 2. webapp -- react 为主
 
-[本地资利代码地址：http://10.0.190.210/zilly-fe](http://10.0.190.210/zilly-fe/)  
-
 [网络资利代码地址：https://github.com/zillyinc](https://github.com/zillyinc/)  
 
 ## capital（投资网站）
-[本地大华代码地址：http://10.0.190.210/mp-web](http://10.0.190.210/mp-web/)   
-
-[网络大华代码地址：http://39.97.180.12:8929/mp-web](http://39.97.180.12:8929/mp-web/)   
+[网络大华代码地址：http://gitlab.chinatongyin.com/mp-web](http://39.97.180.12:8929/mp-web/)   
 
 ### 相关地址
 [项目进度管理：https://zillyinc.atlassian.net](https://zillyinc.atlassian.net/browse/WEB)
@@ -43,16 +39,16 @@ Webb：
 2. website: hoa-react-next, resource-guide-redis
 
 Jerry：
-1. website: platform
-2. webapp: none
+1. website
+2. webapp: discover, home, lease
 
 Rick： 
-1. website: platform
-2. webapp: zinder?
+1. website
+2. webapp: discover, home, lease
 
-Ada： 
-1. website: platform
-2. webapp: zinder?
+Helen： 
+1. website
+2. webapp: home, lease
 
 ------------------
 
@@ -62,7 +58,7 @@ Ada：
 
 ### 技术体系建立
 > 技术架构
-搭建好的gitlab可进行内部博客、架构方案与技术分享  
+github博客做架构方案与技术分享  
 后续做为保密方式，拿到源码后，本地进行开发，我做为统一出口再PR给整体团队。  
 HLA各级操作是否MPA下的一个SPA？是。
 react开发模式采取Duckx方式  
@@ -82,9 +78,9 @@ openproject
 [面试问题](md/interview.md)
 
 ### 公用组件、库
-T答应给的HK-server还没到位，可考虑在内网先搭建一套  
-npm工作流，依赖[nrm](md/nrm.md)和[verdaccio](md/sinopia.md)私有库
-常用UI组
+原本计划在公司服务器搭建私有库，没有资源现在直接发版到npm
+私有npm工作流，依赖[nrm](md/nrm.md)和[verdaccio](md/sinopia.md)私有库
+[公司UI库](http://47.104.181.211/)
 业务容器
 
 ### 
