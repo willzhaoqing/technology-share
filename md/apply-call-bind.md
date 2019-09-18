@@ -1,8 +1,8 @@
 ## call
 call 方法第一个参数是要绑定给this的值，后面传入的是一个参数列表。当第一个参数为null、undefined的时候，默认指向window。
 ```
-obj1.fn() 
-obj1.fn.call(obj1);
+obj1.fn()
+obj1.fn.call(obj1)
 
 fn1()
 fn1.call(null)
@@ -14,7 +14,7 @@ f1.call(null,f2)
 apply接受两个参数，第一个参数是要绑定给this的值，第二个参数是一个参数数组。当第一个参数为null、undefined的时候，默认指向window。
 ```
 obj1.fn() 
-obj1.fn.apply(obj1);
+obj1.fn.apply(obj1)
 
 fn1()
 fn1.apply(null)
