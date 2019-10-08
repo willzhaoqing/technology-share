@@ -6,8 +6,8 @@ v2.0 多个SPA组合到一起，通过nginx或express组合到一起，目前唯
 Each spa change 37 lines in `/config/paths.js` before build, plus the corresponding directory name, such as: chat, discover, home, invest, manage, as follows:
 每个spa打包时在`/config/paths.js`中37行，加上相应的目录名字，比如chat、discover、home、invest、manage，具体如下：
 ```
-<mark>-</mark>envPublicUrl || (publicUrl ? url.parse(publicUrl).pathname : "/");
-<mark>+</mark>envPublicUrl || (publicUrl ? url.parse(publicUrl).pathname : "/manage");
+- envPublicUrl || (publicUrl ? url.parse(publicUrl).pathname : "/");
++ envPublicUrl || (publicUrl ? url.parse(publicUrl).pathname : "/manage");
 ```
 After builded, it can be combined using nginx or express
 nginx或express进行路由组合    
