@@ -107,4 +107,13 @@ app.listen(port)
 
 ```
 
+# testing server
+
+1. OS： Centos|Ubuntu
+lunix is ok，i don't care，same as s3 is better
+2. Operating environment：nginx, node, jenkins
+node version >= 10
+3. domain: XX.tellusapp.com 
+Backend development needs to be added to the cross-domain to allow browsers to access interfaces across domains
+
 
