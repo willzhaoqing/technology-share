@@ -16,11 +16,13 @@
 每个项目PM或UI 会发到slack里
 
 ## 工作规范
-[tellus-FE-workflow 工作流](md/workflow.md)  
+[zilly-FE-workflow 工作流](md/workflow.md)  
 
-[tellus-website 样式规范](md/web-standard.md)     持续优化  
+[zilly-website 样式规范](md/web-standard.md)  
 
-[tellus-react-components](md/react-components.md)   
+[zilly-webApp 调试打包部署](md/webapp-dbd.md)  
+
+[zilly-react-components](md/react-components.md)   
 
 ## 职责分配
 Paul：  
@@ -70,7 +72,7 @@ react开发模式采取Duckx方式
 > 产品-设计-技术-测试
 工作流的规范化和文档化？  
 工作方式较为松散，效率不高  
-从前端开始进行文档的自动化搭建
+从前端开始进行文档的自动化搭建  
 openproject  
 
 > 内部培训和技术栈建立
