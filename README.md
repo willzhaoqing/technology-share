@@ -7,7 +7,7 @@
 [网络资利代码地址：https://github.com/zillyinc](https://github.com/zillyinc/)  
 
 ## capital（投资网站）
-[网络大华代码地址：http://gitlab.chinatongyin.com/mp-web](http://39.97.180.12:8929/mp-web/)   
+[网络大华代码地址：http://gitlab.chinatongyin.com/mp-web](http://gitlab.chinatongyin.com/mp-web/)   
 
 ### 相关地址
 [项目进度管理：https://zillyinc.atlassian.net](https://zillyinc.atlassian.net/browse/WEB)
@@ -34,21 +34,23 @@ Ninja:
 2. webapp: zilly-ui && zilly-webapp
 3. 投资网站
 
-Webb： 
+Webb: 
 1. webapp: zilly-ui
-2. website: hoa-react-next, resource-guide-redis
+2. website: discover, onboarding, manage:add-lease, 
 
-Jerry：
+Jerry:
 1. website
-2. webapp: discover, home, lease
+2. webapp: discover, homeprofile
 
-Rick： 
-1. website
-2. webapp: discover, home, lease
+Abel:
+1. webapp: wallet, homeprofile
 
-Helen： 
-1. website
-2. webapp: home, lease
+Rick
+Helen
+Nelson
+Ivy
+Ada
+Tom
 
 ------------------
 
