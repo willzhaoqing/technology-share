@@ -7,7 +7,7 @@
 [网络资利代码地址：https://github.com/zillyinc](https://github.com/zillyinc/)  
 
 ## capital（投资网站）
-[网络大华代码地址：http://gitlab.chinatongyin.com/mp-web](http://39.97.180.12:8929/mp-web/)   
+[网络大华代码地址：http://gitlab.chinatongyin.com/mp-web](http://gitlab.chinatongyin.com/mp-web/)   
 
 ### 相关地址
 [项目进度管理：https://zillyinc.atlassian.net](https://zillyinc.atlassian.net/browse/WEB)
@@ -16,11 +16,15 @@
 每个项目PM或UI 会发到slack里
 
 ## 工作规范
-[tellus-FE-workflow 工作流](md/workflow.md)  
+[zilly-FE-workflow 工作流](md/workflow.md)  
 
-[tellus-website 样式规范](md/web-standard.md)     持续优化  
+[zilly-website 样式规范](md/web-standard.md)  
 
-[tellus-react-components](md/react-components.md)   
+[zilly-webApp 调试打包部署](md/webapp-dbd.md) 
+
+[zilly-webApp-express 本地测试](md/webapp-express.md) 
+
+[zilly-react-components](md/react-components.md)   
 
 ## 职责分配
 Paul：  
@@ -34,21 +38,23 @@ Ninja:
 2. webapp: zilly-ui && zilly-webapp
 3. 投资网站
 
-Webb： 
+Webb: 
 1. webapp: zilly-ui
-2. website: hoa-react-next, resource-guide-redis
+2. website: discover, onboarding, manage:add-lease, 
 
-Jerry：
+Jerry:
 1. website
-2. webapp: discover, home, lease
+2. webapp: discover, homeprofile
 
-Rick： 
-1. website
-2. webapp: discover, home, lease
+Abel:
+1. webapp: wallet, homeprofile
 
-Helen： 
-1. website
-2. webapp: home, lease
+Rick
+Helen
+Nelson
+Ivy
+Ada
+Tom
 
 ------------------
 
@@ -68,7 +74,7 @@ react开发模式采取Duckx方式
 > 产品-设计-技术-测试
 工作流的规范化和文档化？  
 工作方式较为松散，效率不高  
-从前端开始进行文档的自动化搭建
+从前端开始进行文档的自动化搭建  
 openproject  
 
 > 内部培训和技术栈建立
