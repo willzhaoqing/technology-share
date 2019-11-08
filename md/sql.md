@@ -140,11 +140,12 @@ CREATE DATABASE `DB_NAME`
 ```
 CREATE TABLE 表名称
 (
-  ID int key
-  列名称1 数据类型,
+  ID int PRIMARY KEY
+  Name varchar(255) not null default NULL
+  列名称1 数据类型 是否为空 默认值 是否主键,
   列名称2 数据类型,
   .......
-)
+)ENGINE=INNODB AUTO_INCREMENT=1000 
 ```
 
 新建索引：  
